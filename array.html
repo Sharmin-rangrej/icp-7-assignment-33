@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        const subjects = ['hindi','maths','science','geography','history','marathi']
+
+        console.log(subjects.length);
+        console.log(subjects[3]);
+
+
+        console.log('Before push',subjects);
+        subjects.push('english','economics');
+        console.log('After push',subjects);
+      
+        console.log(subjects);
+        subjects.pop()
+        console.log(subjects);
+
+        subjects.unshift('civil');
+        console.log(subjects);
+
+        subjects.shift();
+        console.log(subjects);
+
+        const index = subjects.indexOf('science');
+        console.log(index);
+
+        const colors = ['pink','yellow','orange','blue','black','white'];
+        
+        console.log(colors.includes("orange"));
+
+        console.log(colors.includes("peach"));
+
+        console.log(colors.sort());
+
+        console.log(colors.reverse());
+
+        console.log(colors.join());
+
+        const fruits = ['mango','banana','grapes','orange'];
+
+        console.log(fruits);
+
+        fruits.splice(2,2,'strawberry','cherry')
+
+        console.log(fruits);
+
+
+
+        
+
+
+    
+
+        </script>
+</body>
+</html>
